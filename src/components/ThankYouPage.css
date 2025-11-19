@@ -1,0 +1,43 @@
+.thank-you-container {
+    background: linear-gradient(135deg, #e3fdfd, #ffe6fa);
+}
+
+.thank-you-box {
+    max-width: 600px;
+    width: 100%;
+    border: 1px solid #e3e3e3;
+}
+
+.success-icon {
+    font-size: 4rem;
+    color: #28a745;
+}
+
+.order-details p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.price-text span {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #28a745;
+}
+
+.order-id-text span {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #007bff;
+}
+
+.btn-outline-dark {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-dark:hover {
+    background-color: #000;
+    color: #fff;
+}

@@ -1,0 +1,48 @@
+.blog {
+    padding-top: 8.75rem;
+    background-color: var(--bg-light-white);
+}
+.blog-card {
+    background: var(--bg-white);
+    box-shadow: 0 0 0.625rem rgb(0 0 0 / 10%);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.blog-card:hover {
+    box-shadow: 0 0 1.25rem rgb(0 0 0 / 15%);
+    transform: translateY(-0.5rem);
+}
+.blog-image img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
+.blog-content h3 {
+    font-size: 1.5rem;
+    color: var(--text-black);
+    transition: all 0.3s ease;
+}
+.blog-content h3:hover {
+    color: var(--text-danger);
+}
+.blog-content .blog-date {
+    color: var(--text-dark-gray);
+    font-size: 0.875rem;
+    margin: 0.5rem 0;
+}
+.blog-content p {
+    font-size: 1rem;
+    color: var(--text-dark-gray);
+}
+.blog-content .btn {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.blog-content .btn:hover {
+    color: var(--text-danger);
+    background: var(--bg-white);
+    border: 1px solid var(--bg-danger);
+}
