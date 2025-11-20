@@ -17,13 +17,13 @@ const TroubleshootingBlogPost = () => {
                 Printers
               </Link>
               <span className="breadcrumb-item active">
-                Troubleshooting Common Printer Issues
+                Resolving Common Printer Issues
               </span>
             </nav>
 
             <article className="blog-post">
               <h1 className="post-title">
-                Troubleshooting Common Printer Issues
+                Resolving Common Printer Issues
               </h1>
               <p className="post-meta">
                 By <span className="author">John Doe</span> • Jan 5, 2024 • 7
@@ -49,7 +49,7 @@ const TroubleshootingBlogPost = () => {
                   Printers are essential devices in offices and homes, but they
                   can sometimes be frustrating when things go wrong. This guide
                   outlines the most common printer problems and provides simple
-                  troubleshooting tips to get your device back in action.
+                  problem-solving tips to get your device back in action.
                 </p>
 
                 <h3>1. Paper Jams</h3>

@@ -125,7 +125,7 @@ const ProductsSection = () => {
             </div>
           </div>
 
-          {/* Service 4 - Virus Removal */}
+          {/* Service 4 - Malware Elimination */}
           <div className="col-sm-6 col-lg-4 mb-4">
             <div className="d-block text-center">
               <div className="product-list">
@@ -143,7 +143,7 @@ const ProductsSection = () => {
                   </div>
                 </div>
                 <div className="product-name pt-3">
-                  <h3 className="text-capitalize">Virus & Malware Removal</h3>
+                  <h3 className="text-capitalize">Malware & Threat Elimination</h3>
                   <p className="mb-0 amount">Starting at $79</p>
                   <div className="py-1">
                     <span className="ti-star active"></span>

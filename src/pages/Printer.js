@@ -59,11 +59,11 @@ const Printer = () => {
         <ul>
           <li>
             <i className="ri-check-double-line"></i> 
-            <strong>Expert Laptop & Desktop Repair:</strong> Fast and reliable repair services for all major brands. We handle hardware issues, screen replacements, battery problems, keyboard repairs, and component upgrades with precision.
+            <strong>Expert Laptop & Desktop Repair:</strong> Fast and reliable repair services for all major brands. We handle device issues, screen replacements, battery problems, keyboard repairs, and component upgrades with precision.
           </li>
           <li>
             <i className="ri-check-double-line"></i> 
-            <strong>Comprehensive IT Services:</strong> Beyond laptops and desktops, we provide printer support, network setup, virus removal, data recovery, software installation, and system optimization - all your IT needs in one place.
+            <strong>Comprehensive IT Services:</strong> Beyond laptops and desktops, we provide printer support, network setup, malware elimination, data recovery, program installation, and system optimization - all your IT needs in one place.
           </li>
           <li>
             <i className="ri-check-double-line"></i> 
@@ -124,7 +124,7 @@ const Printer = () => {
       </div>
       <div className="col-lg-2 col-md-4 col-6 d-flex flex-column align-items-center justify-content-center">
         <i className="bi bi-shield-check" style={{fontSize: '48px', color: '#2563eb', marginBottom: '10px'}}></i>
-        <p>Virus Removal</p>
+        <p>Malware Elimination</p>
       </div>
       <div className="col-lg-2 col-md-4 col-6 d-flex flex-column align-items-center justify-content-center">
         <i className="bi bi-wifi" style={{fontSize: '48px', color: '#2563eb', marginBottom: '10px'}}></i>
@@ -170,7 +170,7 @@ const Printer = () => {
         <div className="icon-box">
           <i className="bi bi-headset" style={{fontSize: '48px', color: '#2563eb', marginBottom: '20px'}}></i>
           <h4><a href="">Quick On-Site & Remote Support</a></h4>
-          <p>Whether it's on-site service or remote troubleshooting, we respond promptly to minimize disruptions and get your devices back online quickly.</p>
+          <p>Whether it's on-site service or remote problem-solving, we respond promptly to minimize disruptions and get your devices back online quickly.</p>
         </div>
       </div>
     </div>
@@ -193,7 +193,7 @@ const Printer = () => {
           <h3>Basic IT Support</h3>
           <h4><sup>$</sup>19<span> per month</span></h4>
           <ul>
-            <li><i className="bx bx-check"></i><b>Diagnostics & Repairs:</b><br />Basic troubleshooting and repair for laptops, desktops, and printers.</li>
+            <li><i className="bx bx-check"></i><b>Diagnostics & Repairs:</b><br />Basic problem resolution and repair for laptops, desktops, and printers.</li>
             <li><i className="bx bx-check"></i><b>Performance Checkups:</b><br />Regular performance checks to keep your devices running smoothly.</li>
             <li><i className="bx bx-check"></i><b>Unlimited Support:</b><br />Phone, email, and chat assistance for your IT queries.</li>
           </ul>
@@ -206,7 +206,7 @@ const Printer = () => {
           <h4><sup>$</sup>29.99<span> per month</span></h4>
           <ul>
             <li><i className="bx bx-check"></i><b>Includes all Basic features</b></li>
-            <li><i className="bx bx-check"></i><b>Advanced Repairs:</b><br />Support for complex hardware and software issues on laptops, desktops, and printers.</li>
+            <li><i className="bx bx-check"></i><b>Advanced Repairs:</b><br />Support for complex device and software issues on laptops, desktops, and printers.</li>
             <li><i className="bx bx-check"></i><b>Preventive Maintenance:</b><br />Regular system optimization, cleaning, and updates to prevent issues before they occur.</li>
             <li><i className="bx bx-check"></i><b>Priority Support:</b><br />Faster response times for your service requests.</li>
           </ul>
@@ -283,14 +283,14 @@ const Printer = () => {
       <div className="col-lg-7 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1">
         <div className="content">
           <h3>Why Choose IT Assist Experts for Your Technology Needs?</h3>
-          <p>Laptops, desktops, and printers are essential tools for both home and office, but issues like hardware failures, software problems, connectivity errors, and security threats can disrupt your workflow. That's where IT Assist Experts come in!</p>
+          <p>Laptops, desktops, and printers are essential tools for both home and office, but issues like device failures, software problems, connectivity errors, and protection threats can disrupt your workflow. That's where IT Assist Experts come in!</p>
           <p>Here's what we offer:</p>
           <ul>
-            <li>Expert troubleshooting and repair for all major laptop, desktop, and printer brands and models.</li>
-            <li>Comprehensive IT services including virus removal, data recovery, network setup, and software installation.</li>
+            <li>Expert problem-solving and repair for all major laptop, desktop, and printer brands and models.</li>
+            <li>Comprehensive IT services including malware elimination, data recovery, network setup, and program installation.</li>
             <li>On-site and remote support for quick and efficient service, minimizing your downtime.</li>
             <li>Regular maintenance to ensure peak device performance and longevity.</li>
-            <li>Guidance on best practices for device usage, security, and care.</li>
+            <li>Guidance on best practices for device usage, protection, and care.</li>
             <li>Customized solutions for businesses with multiple devices or advanced IT needs.</li>
           </ul>
         </div>
@@ -321,8 +321,8 @@ const Printer = () => {
         <p>Here's how we can assist:</p>
         <ul>
           <li>Comprehensive repair services for laptops, desktops, and printers - all major brands supported.</li>
-          <li>Act as your primary IT support for troubleshooting, maintenance, and optimization.</li>
-          <li>Additional services including virus removal, data recovery, network setup, and software installation.</li>
+          <li>Act as your primary IT assistance for problem resolution, maintenance, and optimization.</li>
+          <li>Additional services including malware elimination, data recovery, network setup, and program installation.</li>
           <li>Collaborate seamlessly with your existing IT team or service providers.</li>
           <li>Provide Tier 1 and Tier 2 IT support solutions for your business needs.</li>
           <li>Deliver tailored maintenance plans for businesses with multiple devices or advanced IT setups.</li>
@@ -398,7 +398,7 @@ const Printer = () => {
             <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i>
           </a>
           <div id="faq-list-1" className="collapse show" data-bs-parent=".faq-list">
-            <p>We support all major laptop and desktop brands, including Dell, HP, Lenovo, Apple, ASUS, Acer, Microsoft, and more. We also provide printer support for all major brands. Whether it's hardware repair, software issues, or network setup, we've got you covered.</p>
+            <p>We support all major laptop and desktop brands, including Dell, HP, Lenovo, Apple, ASUS, Acer, Microsoft, and more. We also provide printer support for all major brands. Whether it's device repair, software issues, or network setup, we've got you covered.</p>
           </div>
         </li>
         <li data-aos="fade-up" data-aos-delay="200">
@@ -438,7 +438,7 @@ const Printer = () => {
             <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i>
           </a>
           <div id="faq-list-5" className="collapse" data-bs-parent=".faq-list">
-            <p>Yes, we offer preventive maintenance plans to keep your laptops, desktops, and printers running smoothly and prevent future issues. This includes system optimization, cleaning, updates, security checks, and checking for worn-out parts.</p>
+            <p>Yes, we offer preventive maintenance plans to keep your laptops, desktops, and printers running smoothly and prevent future issues. This includes system optimization, cleaning, updates, protection checks, and checking for worn-out parts.</p>
           </div>
         </li>
         <li data-aos="fade-up" data-aos-delay="600">
@@ -448,7 +448,7 @@ const Printer = () => {
             <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i>
           </a>
           <div id="faq-list-6" className="collapse" data-bs-parent=".faq-list">
-            <p>Absolutely. We specialize in resolving network and connectivity issues, including Wi-Fi setup, network configuration, printer sharing, driver conflicts, and internet connectivity problems for seamless operation across all your devices.</p>
+            <p>Absolutely. We specialize in resolving network and connection issues, including Wi-Fi setup, network configuration, printer sharing, driver conflicts, and network connection problems for seamless operation across all your devices.</p>
           </div>
         </li>
       </ul>

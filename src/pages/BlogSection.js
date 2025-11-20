@@ -14,7 +14,7 @@ const BlogSection = () => {
     },
     {
       id: 2,
-      title: "Troubleshooting Common Printer Issues",
+      title: "Resolving Common Printer Issues",
       date: "Dec 15, 2023",
       image: "/assets/img/b1.jpg",
       excerpt:

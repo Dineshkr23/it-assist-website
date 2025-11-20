@@ -17,11 +17,11 @@ const AboutSection = () => {
           <div className="col-lg-8">
             <h3>Comprehensive IT Support for Laptops, Desktops & All Your Tech Needs</h3>
             <ul>
-              <li><i className="ri-check-double-line"></i> <strong>Laptop & Desktop Repair:</strong> Expert diagnosis and repair for all brands - hardware issues, screen replacements, battery problems, keyboard fixes, and more. Fast turnaround times to get you back to work.</li>
-              <li><i className="ri-check-double-line"></i> <strong>Software & System Support:</strong> Operating system installation, driver updates, software troubleshooting, virus removal, malware protection, and system optimization for peak performance.</li>
-              <li><i className="ri-check-double-line"></i> <strong>Printer & Network Services:</strong> Complete printer setup, troubleshooting, network configuration, Wi-Fi connectivity, and multi-device connectivity solutions.</li>
+              <li><i className="ri-check-double-line"></i> <strong>Laptop & Desktop Repair:</strong> Expert diagnosis and repair for all brands - device issues, screen replacements, battery problems, keyboard fixes, and more. Fast turnaround times to get you back to work.</li>
+              <li><i className="ri-check-double-line"></i> <strong>Software & System Support:</strong> Operating system installation, driver updates, problem resolution, malware elimination, threat protection, and system optimization for peak performance.</li>
+              <li><i className="ri-check-double-line"></i> <strong>Printer & Network Services:</strong> Complete printer setup, issue resolution, network configuration, Wi-Fi connectivity, and multi-device connection solutions.</li>
               <li><i className="ri-check-double-line"></i> <strong>Data Recovery & Backup:</strong> Secure data recovery from damaged drives, backup solutions, cloud setup, and disaster recovery planning to protect your valuable information.</li>
-              <li><i className="ri-check-double-line"></i> <strong>Hardware Upgrades:</strong> RAM upgrades, SSD installations, graphics card upgrades, and performance enhancements to extend your device's lifespan.</li>
+              <li><i className="ri-check-double-line"></i> <strong>Device Upgrades:</strong> RAM upgrades, SSD installations, graphics card upgrades, and performance enhancements to extend your device's lifespan.</li>
             </ul>
           </div>
           <div className="col-lg-4 pt-4 pt-lg-0 d-flex align-items-stretch forms">

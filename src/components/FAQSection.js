@@ -12,13 +12,13 @@ const FAQSection = () => {
             <li data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" className="collapse" data-bs-target="#faq-list-1">What IT services do you provide? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-1" className="collapse show" data-bs-parent=".faq-list">
-                <p>We provide comprehensive IT support services including laptop and desktop repair, printer setup and troubleshooting, virus and malware removal, network and Wi-Fi setup, data recovery, software installation, system optimization, hardware upgrades, and preventive maintenance. We support all major brands and handle both hardware and software issues.</p>
+                <p>We provide comprehensive IT assistance services including laptop and desktop repair, printer setup and problem-solving, malware and threat elimination, network and Wi-Fi setup, data recovery, program installation, system optimization, device upgrades, and preventive maintenance. We support all major brands and handle both device and software issues.</p>
               </div>
             </li>
             <li data-aos="fade-up" data-aos-delay="200">
               <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" className="collapsed">Do you support both laptops and desktops? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-2" className="collapse" data-bs-parent=".faq-list">
-                <p>Yes, we support both laptops and desktops from all major brands including Dell, HP, Lenovo, Apple, ASUS, Acer, Microsoft, and more. We handle hardware repairs, software issues, upgrades, and maintenance for both device types. We also provide printer support and other IT services.</p>
+                <p>Yes, we support both laptops and desktops from all major brands including Dell, HP, Lenovo, Apple, ASUS, Acer, Microsoft, and more. We handle device repairs, software issues, upgrades, and maintenance for both device types. We also provide printer support and other IT services.</p>
               </div>
             </li>
             <li data-aos="fade-up" data-aos-delay="300">
@@ -30,7 +30,7 @@ const FAQSection = () => {
             <li data-aos="fade-up" data-aos-delay="400">
               <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" className="collapsed">Do you offer both remote and on-site support? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-4" className="collapse" data-bs-parent=".faq-list">
-                <p>Yes, we offer both remote and on-site support. Remote support is available for software issues, troubleshooting, and system optimization. On-site service is provided for hardware repairs, installations, and complex issues that require physical access. Our Enterprise plan includes dedicated on-site support for businesses.</p>
+                <p>Yes, we offer both remote and on-site assistance. Remote assistance is available for software issues, problem resolution, and system optimization. On-site service is provided for device repairs, installations, and complex issues that require physical access. Our Enterprise plan includes dedicated on-site assistance for businesses.</p>
               </div>
             </li>
             <li data-aos="fade-up" data-aos-delay="500">

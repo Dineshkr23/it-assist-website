@@ -33,14 +33,14 @@ const Footer = () => {
               <p>
                 IT Assist Experts offers comprehensive IT solutions to ensure
                 smooth and efficient business operations. Our expertise spans
-                troubleshooting, infrastructure maintenance, and the
+                problem resolution, infrastructure maintenance, and the
                 implementation of cutting-edge technologies to enhance
-                performance and security.
+                performance and protection.
               </p>
               <p>
                 Disclaimer: IT Assist Experts operates independently, providing
-                remote technical assistance for a wide range of software,
-                hardware, and peripherals. While we cover numerous third-party
+                remote IT assistance for a wide range of software,
+                devices, and peripherals. While we cover numerous third-party
                 products globally, we are not affiliated with these companies
                 unless stated otherwise. For warranties or permissions related
                 to specific products, please contact the respective third party.

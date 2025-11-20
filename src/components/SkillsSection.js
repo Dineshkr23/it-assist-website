@@ -13,7 +13,7 @@ const SkillsSection = () => {
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
             <h3>For Service Partners:</h3>
             <p class="">
-              The technological landscape of retirement communities is evolving rapidly, a shift further propelled by recent global events. Companies specializing in managed IT services, IT development, reporting, cyber security, and more are facing the challenge of upholding premier SLAs and customer experiences at competitive rates.
+              The technological landscape of retirement communities is evolving rapidly, a shift further propelled by recent global events. Companies specializing in managed IT services, IT development, reporting, cyber protection, and more are facing the challenge of upholding premier SLAs and customer experiences at competitive rates.
             </p>
             <p>Here's how we can assist:</p>
             <li>Broaden your offerings by including resident tech assistance.</li>

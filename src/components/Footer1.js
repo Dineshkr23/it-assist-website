@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="col-md-3">
             <h4>IT Assist Experts</h4>
             <p>
-              IT Assist Experts offers comprehensive IT support services for laptops, desktops, printers, and all your technology needs. Our expertise spans hardware repair, software troubleshooting, network setup, virus removal, data recovery, and preventive maintenance to keep your devices running smoothly.
+              IT Assist Experts offers comprehensive IT assistance services for laptops, desktops, printers, and all your technology needs. Our expertise spans device maintenance, problem resolution, network setup, malware elimination, data recovery, and preventive maintenance to keep your devices running smoothly.
             </p>
           </div>
           <div className="col-md-3">
