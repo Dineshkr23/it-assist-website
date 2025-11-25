@@ -21,7 +21,7 @@ const PricingSection = () => {
                 <li><i className="bx bx-check"></i><b>Preventative Maintenance:</b><br />Adware/spyware cleanup, threat protection.</li>
                 <li><i className="bx bx-check"></i><b>Additional Services:</b><br />More IT assistance as needed.</li>
               </ul>
-              <a href="#" className="subscribe-popup-button buy-btn">Subscribe</a>
+              <a href="#" className="subscribe-popup-button buy-btn" onClick={(e) => e.preventDefault()}>Subscribe</a>
             </div>
           </div>
           <div className="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
@@ -35,7 +35,7 @@ const PricingSection = () => {
                 <li><i className="bx bx-check"></i><b>Backup & Disaster Recovery:</b><br />Remote data migration, disaster recovery (RTO & RPO).</li>
                 <li><i className="bx bx-check"></i><b>Protection & System Monitoring:</b><br />Network protection scans, VPN configuration, user training on protection best practices.</li>
               </ul>
-              <a href="#" className="subscribe-popup-button buy-btn">Subscribe</a>
+              <a href="#" className="subscribe-popup-button buy-btn" onClick={(e) => e.preventDefault()}>Subscribe</a>
             </div>
           </div>
           <div className="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
@@ -48,7 +48,7 @@ const PricingSection = () => {
                 <li><i className="bx bx-check"></i><b>Data Protection and Privacy Compliance:</b><br />Guidance to implement a data protection and privacy compliance program, website sign-up/login and privacy policy review, regular data compliance scans for vulnerabilities.</li>
                 <li><i className="bx bx-check"></i><b>Dedicated IT Manager:</b><br />Personalized IT management for your business.</li>
               </ul>
-              <a href="#" className="subscribe-popup-button buy-btn">Subscribe</a>
+              <a href="#" className="subscribe-popup-button buy-btn" onClick={(e) => e.preventDefault()}>Subscribe</a>
             </div>
           </div>
         </div>

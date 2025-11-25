@@ -39,7 +39,7 @@ const ColorLaserJetPage = () => {
     e.preventDefault();
     const orderId = Math.floor(100000 + Math.random() * 900000);
 
-    navigate("/thank-you", {
+    navigate("/thankyou", {
       state: {
         name: formData.name,
         phone: formData.phone,

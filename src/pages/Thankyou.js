@@ -30,34 +30,53 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         `}</noscript>
       </Helmet>
 
-      <section id="hero" className="d-flex align-items-center hero-section">
+      <section id="thankyou" className="thankyou" style={{ padding: "100px 0", minHeight: "60vh" }}>
         <div className="container">
-          <div className="row">
-            <div
-              className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <h1>Thank you for filling up the form</h1>
-            </div>
-            <div
-              className="col-lg-6 order-1 order-lg-2 hero-img"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-            >
-              <img src="" className="img-fluid animated" alt="" />
+          <div className="row justify-content-center">
+            <div className="col-lg-8 text-center" data-aos="fade-up">
+              <div 
+                style={{
+                  width: "100px",
+                  height: "100px",
+                  borderRadius: "50%",
+                  background: "#10b981",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  margin: "0 auto 30px",
+                  boxShadow: "0 4px 20px rgba(16, 185, 129, 0.3)"
+                }}
+              >
+                <i 
+                  className="bi bi-check-lg" 
+                  style={{
+                    fontSize: "50px",
+                    color: "#fff",
+                    fontWeight: "bold"
+                  }}
+                ></i>
+              </div>
+              <h1 style={{ 
+                fontFamily: "'Poppins', sans-serif",
+                fontSize: "2.5rem",
+                color: "#0f172a",
+                marginBottom: "20px"
+              }}>
+                Thank You!
+              </h1>
+              <p style={{
+                fontFamily: "'Inter', sans-serif",
+                fontSize: "1.2rem",
+                color: "#64748b",
+                lineHeight: "1.8",
+                maxWidth: "600px",
+                margin: "0 auto"
+              }}>
+                Thank you for contacting us. We have received your message and will
+                get back to you shortly.
+              </p>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section id="thankyou" className="thankyou">
-        <div className="container">
-          <h2>Thank You!</h2>
-          <p>
-            Thank you for contacting us. We have received your message and will
-            get back to you shortly.
-          </p>
         </div>
       </section>
     </>

@@ -21,9 +21,12 @@ body {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-  max-width: 400px;
-  width: 100%;
+  max-width: 500px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
   text-align: center;
+  position: relative;
 }
 
 .popup h3 {
@@ -40,6 +43,54 @@ body {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+
+.popup .php-email-form input,
+.popup .php-email-form textarea {
+  border-radius: 8px;
+  border: 2px solid #e2e8f0;
+  padding: 12px 16px;
+  height: 50px;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  color: #1e293b;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.popup .php-email-form input:focus,
+.popup .php-email-form textarea:focus {
+  border-color: #2563eb;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.popup .php-email-form input::placeholder,
+.popup .php-email-form textarea::placeholder {
+  color: #94a3b8;
+}
+
+.popup .php-email-form button[type="submit"] {
+  background: #2563eb;
+  border: none;
+  padding: 14px 36px;
+  color: #fff;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 4px 14px 0 rgba(37, 99, 235, 0.4);
+  cursor: pointer;
+  width: auto;
+  margin: 0 5px;
+}
+
+.popup .php-email-form button[type="submit"]:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px 0 rgba(37, 99, 235, 0.5);
 }
 
 .btn-primary {

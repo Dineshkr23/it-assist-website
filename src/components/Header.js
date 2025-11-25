@@ -134,14 +134,14 @@ const Header = () => {
           <i className="bi bi-list mobile-nav-toggle"></i>
         </nav>
 
-        <div class="help">
+        {/* <div class="help">
           <a class="blue" style={{ paddingLeft: "25px", paddingRight: "10px" }}>
             Ask support
           </a>
           <a href="tel:(888) 830-1368" className="blueContact">
             (888) 830-1368
           </a>
-        </div>
+        </div> */}
       </div>
     </header>
   );

@@ -4,6 +4,7 @@ import "./App.css";
 
 import Header from "./components/Header";
 import Footer1 from "./components/Footer1";
+import Popup from "./components/Popup";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -21,7 +22,6 @@ import ProductPage from "./components/ProductPage";
 import BlogPost from "./pages/blog/BlogPost";
 import TroubleshootingBlogPost from "./pages/blog/TroubleshootingBlogPost";
 import ChoosingPrinterBlogPost from "./pages/blog/ChoosingPrinterBlogPost";
-import ThankYou from "./components/ThankYouPage";
 
 function App() {
   return (
@@ -59,10 +59,10 @@ function App() {
               path="/blog/choosing-the-right-printer"
               element={<ChoosingPrinterBlogPost />}
             />
-            <Route path="/thank-you" element={<ThankYou />} />
           </Routes>
         </main>
         <Footer1 />
+        <Popup />
       </div>
     </Router>
   );

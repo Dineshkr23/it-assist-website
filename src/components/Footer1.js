@@ -17,7 +17,11 @@ const Footer = () => {
           <div className="col-md-3">
             <h4>IT Assist Experts</h4>
             <p>
-              IT Assist Experts offers comprehensive IT assistance services for laptops, desktops, printers, and all your technology needs. Our expertise spans device maintenance, problem resolution, network setup, malware elimination, data recovery, and preventive maintenance to keep your devices running smoothly.
+              IT Assist Experts offers comprehensive IT assistance services for
+              laptops, desktops, printers, and all your technology needs. Our
+              expertise spans device maintenance, problem resolution, network
+              setup, malware elimination, data recovery, and preventive
+              maintenance to keep your devices running smoothly.
             </p>
           </div>
           <div className="col-md-3">
@@ -48,16 +52,16 @@ const Footer = () => {
                 <i className="bi bi-geo-alt-fill"></i> 2296 Henderson Mill Rd
                 #116, Atlanta, GA 30345
               </p>
-              <p>
+              {/* <p>
                 <i className="bi bi-telephone-fill"></i>(888) 830-1368
-              </p>
+              </p> */}
               <p>
                 <i className="bi bi-envelope-fill"></i>{" "}
                 support@itassistexperts.com
               </p>
             </address>
           </div>
-          <div className="col-md-3">
+          {/* <div className="col-md-3">
             <h4>Newsletter</h4>
             <form onSubmit={handleSubmit}>
               <div className="form-group">
@@ -71,15 +75,15 @@ const Footer = () => {
                 Subscribe
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
-      <div class="fixed-strip">
+      {/* <div class="fixed-strip">
         <a href="tel:(888) 830-1368">
           <i class="fa fa-phone"></i>
           <span class="hidden-number">(888) 830-1368</span>
         </a>
-      </div>
+      </div> */}
     </footer>
   );
 };

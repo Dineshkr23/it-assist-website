@@ -4,19 +4,28 @@ import React from 'react';
 const EmailSubscription = () => {
   return (
     <>
-      <section id="hero" class="d-flex align-items-center">
-
-<div class="container">
-  <div class="row">
-    <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-      <h1>Welcome to IT Assist Experts Family</h1>
-      <h1></h1>
-    </div>
-    <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-      <img src="" class="img-fluid animated" alt="" />
-    </div>
-  </div>
-</div>
+      <section 
+        id="hero" 
+        className="d-flex align-items-center"
+        style={{
+          backgroundImage: `linear-gradient(135deg, rgba(15, 23, 42, 0.45) 0%, rgba(30, 41, 59, 0.35) 100%), url('/assets/img/hero.webp')`,
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+          backgroundBlendMode: "overlay",
+        }}
+      >
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+              <h1>Welcome to IT Assist Experts Family</h1>
+              <h1></h1>
+            </div>
+            <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+              <img src="" className="img-fluid animated" alt="" />
+            </div>
+          </div>
+        </div>
 
 </section>
 

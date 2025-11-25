@@ -18,7 +18,17 @@ const Contact = () => {
 
   return (
     <>
-      <section id="hero" className="d-flex align-items-center hero-section">
+      <section 
+        id="hero" 
+        className="d-flex align-items-center hero-section"
+        style={{
+          backgroundImage: `linear-gradient(135deg, rgba(15, 23, 42, 0.45) 0%, rgba(30, 41, 59, 0.35) 100%), url('/assets/img/hero.webp')`,
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+          backgroundBlendMode: "overlay",
+        }}
+      >
         <div className="container">
           <div className="row">
             <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">

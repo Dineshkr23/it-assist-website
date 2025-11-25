@@ -26,7 +26,7 @@ const TeamSection = () => {
               <div className="pic"><img src="assets/img/team/team-1.jpg" className="img-fluid" alt="" /></div>
               <div className="member-info">
                 <h4>Walter White</h4>
-                <p>“Partnering with Comp Care Takers support transformed our tech landscape. Their responsive team and unparalleled expertise have propelled our efficiency, ensuring smooth operations and peace of mind. Truly the best IT decision we’ve made!.”</p>
+                <p>"Partnering with Comp Care Takers assistance transformed our tech landscape. Their responsive team and unparalleled expertise have propelled our efficiency, ensuring smooth operations and peace of mind. Truly the best IT decision we've made!."</p>
               </div>
             </div>
           </div>
